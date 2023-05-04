@@ -53,7 +53,7 @@ nav a.active {
 
 iframe {
     width: 80vw;
-    height: 600px;
+    height: 50vh;
     border: 0;
 }
 
@@ -214,6 +214,7 @@ footer p {
         text-decoration: none;
         font-size: 1em;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -269,6 +270,7 @@ footer p {
         text-decoration: none;
         font-size: 0.9em;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -414,4 +416,12 @@ label {
 .text a {
     color: #f00;
     text-decoration: none;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
 }
