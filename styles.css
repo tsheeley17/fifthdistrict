@@ -161,6 +161,9 @@ footer {
     background-color: #f2f2f2;
     text-align: center;
     padding: 15px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
@@ -192,6 +195,8 @@ footer p {
 
     .form-container {
         display: flex;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     .left-container {
@@ -249,17 +254,22 @@ footer p {
     }
 
     .form-container {
-        width: 80vw;
         display: flex;
-        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     .left-container {
         width: 80vw;
         margin-bottom: 20px;
+        flex: 1;
     }
 
     #contact-form {
+        width: 100%;
+    }
+
+    #contact-form input {
         width: 100%;
     }
 
@@ -368,10 +378,12 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 5px;
+    width: 80%;
 }
 
 textarea {
     height: 150px;
+    width: 80%;
 }
 
 button[type="submit"] {
@@ -390,7 +402,7 @@ button[type="submit"]:hover {
 
 label {
     margin-top: 10px;
-    display: block;
+    display: flex;
     font-weight: bold;
 }
 
