@@ -101,7 +101,8 @@ iframe {
     min-height: 100vh;
     position: fixed;
     z-index: 98;
-    background-color: #FF0000;
+    background-color: #000;
+    opacity: 0.9;
     padding-top: 20px;
     transition: 0.4s;
 }
@@ -160,10 +161,7 @@ img {
 footer {
     background-color: #f2f2f2;
     text-align: center;
-    padding: 15px;
-
     bottom: 0;
-    width: 100%;
 }
 
 footer p {
