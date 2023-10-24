@@ -442,3 +442,14 @@ label {
     align-items: center;
     margin-bottom: 25px;
 }
+
+
+.center-t {
+    text-align: center;
+}
+
+.center-h {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
