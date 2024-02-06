@@ -326,6 +326,12 @@ footer p {
     margin-bottom: 20px;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .red_button {
     background-color: #FF0000;
     color: #fff;
